@@ -8,4 +8,4 @@ def primes_sieve2(limit):
             for n in xrange(i*i, limit, i):     # Mark factors non-prime
                 a[n] = False
 
-sieve2(1000)
+primes_sieve2(1000)
